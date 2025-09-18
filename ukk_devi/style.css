@@ -94,7 +94,29 @@ footer {
   }
 
 .card-hover4:hover {
-    background-color: #FF7777;
+    background-color: #ff4545;
+    transform: scale(1.05);
+    color: #fff; /* warna teks agar lebih kontras */
+  }
+
+.card-hover5 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+.card-hover5:hover {
+    background-color: #FBB454;
+    transform: scale(1.05);
+    color: #fff; /* warna teks agar lebih kontras */
+  }
+
+.card-hover6 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+.card-hover6:hover {
+    background-color: #C9CDCF;
     transform: scale(1.05);
     color: #fff; /* warna teks agar lebih kontras */
   }
